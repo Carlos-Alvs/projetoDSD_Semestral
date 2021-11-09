@@ -1,0 +1,85 @@
+
+
+.Landpage {
+  text-align: center;
+  min-height: 50vh;
+  display: flexbox;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.layer1{
+  background-color: #f56a2a;
+  padding-top: 2.5vmin;
+  padding-bottom: 0.1vmin;
+}
+
+.logo {
+  height: 35vmin;
+  pointer-events: none;
+}
+
+.Name{
+  font-family: "Exo 2";
+  font-size: 32pt;
+  padding-top: 4vmin;
+  color: #1ab382;
+}
+.Frase{
+  font-family: "Exo 2";
+  font-size: 24pt;
+  color: #ffca4f;
+}
+
+.slogan{
+  background-color: #ffca4f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Exo 2";
+  font-size: 20pt;
+  color: rgba(255, 255, 255, 0.979);
+}
+
+.fall{
+  background-color: #ffca4f;
+  height: 47vh;
+  align-items: center;
+}
+
+.button {
+  padding: 15px;
+  background-color: rgb(240, 167, 9);
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  border-radius: 10px;
+  font-family: "Exo 2";
+}
+
+.btns{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 5vmin;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .logo {
+    animation: App-logo-spin infinite 15s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
